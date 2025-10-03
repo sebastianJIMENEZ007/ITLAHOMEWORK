@@ -12,7 +12,7 @@ while (!Close)
         Console.WriteLine("Enter a number");
         string variable = Console.ReadLine();
 
-        truenumber = int.TryParse(variable, out number);
+        truenumber = int.TryParse(variable, out number); 
 
         if (truenumber)
         {
