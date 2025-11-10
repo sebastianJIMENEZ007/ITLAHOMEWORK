@@ -202,15 +202,15 @@ void DeleteContact(Dictionary<int, Dictionary<string, string>> contacts)
 
 void SearchContact(Dictionary<int, Dictionary<string, string>> contacts)
 {
-    Console.WriteLine("\n=== BUSCAR CONTACTO ===");
+    Console.WriteLine("\n=== SEARCH CONTACT ===");
 
     if (contacts.Count == 0)
     {
-        Console.WriteLine("No hay contactos registrados.");
+        Console.WriteLine("No contacts registered.");
         return;
     }
 
-    Console.Write("Ingrese el nombre, apellido o cualquier dato a buscar: ");
+    Console.Write("Enter the name, last name, or any data to search: ");
     string searchTerm = Console.ReadLine()?.ToLower() ?? "";
 
     bool found = false;
@@ -234,7 +234,7 @@ void SearchContact(Dictionary<int, Dictionary<string, string>> contacts)
 
     if (!found)
     {
-        Console.WriteLine("No se encontraron contactos con ese término.");
+        Console.WriteLine("No contacts found with that term.");
     }
     Console.WriteLine("\nPress any key to return to menu...");
     Console.ReadKey();
