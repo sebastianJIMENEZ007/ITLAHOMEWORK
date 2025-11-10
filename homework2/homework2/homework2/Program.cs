@@ -11,7 +11,7 @@ while (!Close)
     {
         Console.WriteLine("Enter a number");
         string variable = Console.ReadLine();
-
+        //confirm if the input is a number
         truenumber = int.TryParse(variable, out number); 
 
         if (truenumber)
