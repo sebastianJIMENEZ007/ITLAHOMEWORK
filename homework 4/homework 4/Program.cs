@@ -6,7 +6,7 @@ bool close = false;
 
 while (!close)
 {
-    Console.WriteLine("\n=== AGENDA PERSONAL ===");
+    Console.WriteLine("\n===MENU===");
     Console.WriteLine("1. Add contact");
     Console.WriteLine("2. View contacts");
     Console.WriteLine("3. Edit contact");
