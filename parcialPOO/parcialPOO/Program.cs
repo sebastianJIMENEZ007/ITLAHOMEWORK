@@ -107,7 +107,7 @@ class Program
         Console.WriteLine("Bienvenidos Grupo POO");
         Console.WriteLine("Integrantes:");
         Console.WriteLine("Sebastian Jimenez Consoro");
-        Console.WriteLine("Juan Perez");
+        Console.WriteLine(":Abraham Francisco Núñez");
 
         // Declaración de variables de distintos tipos de datos
         int cantidadIntegrantes = 2;
